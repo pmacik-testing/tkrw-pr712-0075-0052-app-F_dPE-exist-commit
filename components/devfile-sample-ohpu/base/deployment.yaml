@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-ohpu
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0052-tenant/tkrw-pr712-0075-0052-app/devfile-sample-ohpu@sha256:fe88088948b77cdb94c2716c4aaf8fec0dd0d6b6ae74fc254b74d846f7a3fb7b
         name: my-nodejs
         ports:
         - containerPort: 3001
